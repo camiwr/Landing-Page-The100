@@ -33,6 +33,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #FCFCFC;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
 
@@ -216,8 +217,6 @@ header {
     justify-content: space-between;
 }
 
-
-
 /* --------------------
     Main Personagens
 ---------------------- */
@@ -265,10 +264,26 @@ header {
     text-align: center;
 }
 
-
 /* --------------------
         Footer 
 ---------------------- */
+
+footer {
+    background-color: #02111B;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8% 10px 8%;
+    margin-top: 80px;
+    align-items: center;
+}
+
+#copyright {
+    color: #ffffff;
+    font-weight: 500;
+}
 
 .social-media-buttons {
     display: flex;
@@ -281,17 +296,17 @@ header {
     justify-content: center;
     width: 45px;
     height: 40px;
-    background-color: var(--color-neutral-0);
+    background-color: #FCFCFC;
     font-size: 1.25rem;
     border-radius: 10px;
     text-decoration: none;
-    color: var(--color-neutral-1);;
+    color: #000000;;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow .3s ease;
 }
 
 .social-media-buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 8px rgba(122, 2, 2, 0.1);
 }
 
 
@@ -385,6 +400,9 @@ header {
         margin: 0% 4% 0% 4%;
         text-align: center;
     }
+
+    /* footer  */
+
 }
 
 @media screen and (max-width: 600px) {
@@ -410,6 +428,11 @@ header {
 
     .feedback {
         flex-direction: column;
+    }
+
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
     }
 } 
 
