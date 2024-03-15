@@ -238,7 +238,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     gap: 12px;
     width: 20%;
     padding: 20px;
@@ -248,7 +248,13 @@ header {
     overflow: hidden;
 }
 
+.card:hover{
+    background-color: #a2abab2d;
+    transition: 0.2s;
+}
+
 .card-image {
+    border: 3px solid #02111b;
     border-radius: 50%;
     max-width: 200px;
     max-height: 300px;
