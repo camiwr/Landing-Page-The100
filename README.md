@@ -1,7 +1,7 @@
 # 🌌 The 100 - Landing Page
 
 ## 📖 Descrição
-Este projeto consiste em uma landing page desenvolvida para explorar e compartilhar informações sobre a série de televisão "The 100". Criada utilizando HTML, CSS e JavaScript, a página apresenta uma interface atraente e informativa sobre a série, incluindo descrições detalhadas dos personagens e do cenário pós-apocalíptico.
+Este projeto consiste em uma landing page desenvolvida para explorar e compartilhar informações sobre a série de TV americana intitulada "The 100". Criada utilizando HTML, CSS e JavaScript, a página apresenta uma interface atraente e informativa sobre a série, incluindo descrições detalhadas dos personagens e do cenário pós-apocalíptico.
 
 ## ✨ Funcionalidades
 - Apresentação visual do universo de "The 100" com uma interface responsiva.
